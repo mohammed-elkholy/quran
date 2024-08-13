@@ -71,6 +71,9 @@ html {
 }
 
 /* For mobile phones: */
+[tabindex="-1"]:focus:not(:focus-visible) {
+  outline: 0 !important;
+}
 [class*="col-"] {
   width: 100%;
 }
@@ -105,15 +108,7 @@ html {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
-@media screen and (max-width: 900px) {
-body{
-max-width: 900px;
-min-width: 400px;
-}
-@media only screen and (max-width: 400px) {
-body {
-max-width: 400px;
-}
+
 }
       
     img {
