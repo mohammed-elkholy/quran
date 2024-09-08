@@ -1,6 +1,0 @@
-// manifest.json
-{
-  "name": "إسلاميات",
-  "display": "standalone",
-  "start_url": "/?standalone=true"
-}
